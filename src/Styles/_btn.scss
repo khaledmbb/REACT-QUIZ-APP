@@ -1,0 +1,13 @@
+.btn {
+  margin-top: $gap;
+  background-color: rgb($color, 0.2);
+  color: $color;
+  border: none;
+  font-weight: $bold + 100;
+  border-radius: $radius;
+  padding: 10px 15px;
+  cursor: pointer;
+  a {
+    color: $color;
+  }
+}

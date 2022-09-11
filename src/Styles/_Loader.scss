@@ -1,0 +1,22 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  padding: $gap 0;
+  .spinner {
+    border-color: transparent $color $color $color;
+    border-style: solid;
+    border-width: 7px;
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    animation: spinner 0.7s linear infinite;
+    @keyframes spinner {
+      from {
+        rotate: 0deg;
+      }
+      to {
+        rotate: 360deg;
+      }
+    }
+  }
+}
